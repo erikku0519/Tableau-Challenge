@@ -1,14 +1,12 @@
-# Geo-Mapping-Challenge: Visualizing Data with Leaflet
+# Tableau-Challenge: NYC CitiBike Data Analysis
 <br>
-In this challenge, I am visualizing earthquake data provided by the USGB (United States Geological Survey), which is responsible for providing scientific data about natural hazards, the health of our ecosystems and environment, and the impacts of climate and land-use change.<br>
+In this challenge, I am visualizing New York City's Citibike data provided by the official CitiBike Website (https://www.citibikenyc.com/system-data). While the official website has the data dating back to Summer of 2013, I have limited the scope of my analysis from the date range of September 2017 through September 2018. <br>
 
-## Required Files<br>
-* `index.html`<br>
-* `logic.js`<br>
-* `config.js`<br>
-* `style.css`<br>
+## Data Download & Merge<br>
 <br>
-Note: `config.js`is excluded on GitHub as it contains API Key.<br>
+The website has CitiBike raw data available for the public to download. Each file repesent the Bike trip data by each month in each Manhattan or Jersey City (JC) region. As a result, there are total of 26 different raw data files (13 months * 2 areas) and each raw data may exceed 300MB in size. To make the data process smoother, I decided to automate the data loading and merging process by writing Python scripts:
+<br>
+`citibike_app.py`is responsible for automation of loading csv files and merging the data utilizing Python's Pandas. 
 
 ## Getting the Data<br>
 
