@@ -7,18 +7,16 @@ In this challenge, I am visualizing New York City's Citibike data provided by th
 
 ## Data Pre-Processing<br>
 <br>
-# Data Download<br>
+### Data Download<br>
 The website has CitiBike raw data available for the public to download. Each file repesent the Bike trip data by each month in each Manhattan or Jersey City (JC) region. 
 
-# Data Loading & Merging<br>
+### Data Loading & Merging<br>
 There are total of 26 different raw data files (13 months * 2 areas) and each raw data may exceed 300MB in size. To make the data process smoother, I decided to automate the data loading and merging process by writing Python scripts:
 <br>
 `citibike_app.py`is responsible for automation of loading csv files and merging the data utilizing Python's Pandas. Upon merging the data, I exported the data as csv file.
 
-# Import to Tableau<br>
-I imported the csv file of the merged data
-<br>
-`citibike_app.py`is responsible for automation of loading csv files and merging the data utilizing Python's Pandas. 
+### Import to Tableau<br>
+I imported the csv file of the merged data. 
 <br>
 ## Insights from the Data<br>
 Answers to below questions are answered on the Tableau Story (PDF File also attached):
