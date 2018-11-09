@@ -15,7 +15,12 @@ There are total of 26 different raw data files (13 months * 2 areas) and each ra
 `citibike_app.py`is responsible for automation of loading csv files and merging the data utilizing Python's Pandas. Upon merging the data, I exported the data as csv file.
 
 ### Import to Tableau<br>
-I imported the csv file of the merged data. 
+In Tableau, I imported the csv file of the merged data. For the purpose of analyzing the ridership by Age, I have created a new variable called "Rider Age (Estimated)" by calculating the difference of the rider's birth year and the currenty year (2018). For the purpose of analyzing the distance travelled during each bike trip, I have used the following equation: 
+Distance Equation:
+3959 * ACOS
+(SIN(RADIANS([Start Station Latitude])) * SIN(RADIANS([End Station Latitude])) +
+COS(RADIANS([Start Station Latitude])) * COS(RADIANS([End Station Latitude])) * COS(RADIANS([End Station
+Longitude]) - RADIANS([Start Station Longitude])))
 <br>
 ## Insights from the Data<br>
 Answers to below questions are answered on the Tableau Story (PDF File also attached):
