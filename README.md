@@ -5,8 +5,7 @@ In this challenge, I am visualizing New York City's Citibike data provided by th
 ![CitiBike Map](https://github.com/erikku0519/Tableau-Challenge/blob/master/Citibike.png)
 
 
-## Data Pre-Processing
-<br>
+## Data Pre-Processing<br>
 ### Data Download<br>
 The website has CitiBike raw data available for the public to download. Each file repesent the Bike trip data by each month in each Manhattan or Jersey City (JC) region. 
 
