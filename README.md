@@ -2,7 +2,7 @@
 <br>
 In this challenge, I am visualizing New York City's Citibike data provided by the official CitiBike Website (https://www.citibikenyc.com/system-data). While the official website has the data dating back to Summer of 2013, I have limited the scope of my analysis from the date range of September 2017 through September 2018. <br>
 
-![CitiBike Map](https://github.com/erikku0519/Tableau-Challenge/blob/master/citibike.png)
+![CitiBike Map](https://github.com/erikku0519/Tableau-Challenge/blob/master/Citibike.png)
 
 
 ## Data Download & Merge<br>
