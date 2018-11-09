@@ -27,5 +27,4 @@ The website has CitiBike raw data available for the public to download. Each fil
 * What is the average distance in miles that a bike is ridden?
 * Which bikes (by ID) are most likely due for repair or inspection in the timespan?
 * A static map that plots all bike stations with a visual indication of the most popular locations to start and end a journey with zip code data overlaid on top.
-* 
 
