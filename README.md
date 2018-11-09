@@ -12,6 +12,8 @@ The website has CitiBike raw data available for the public to download. Each fil
 `citibike_app.py`is responsible for automation of loading csv files and merging the data utilizing Python's Pandas. 
 
 ## Insights from the Data<br>
+Answers to below questions are answered on the Tableau Story (PDF File also attached)
+<br>
 * How many trips have been recorded total during the chosen period?
 * By what percentage has total ridership grown?
 * How has the proportion of short-term customers and annual subscribers changed?
@@ -27,4 +29,6 @@ The website has CitiBike raw data available for the public to download. Each fil
 * What is the average distance in miles that a bike is ridden?
 * Which bikes (by ID) are most likely due for repair or inspection in the timespan?
 * A static map that plots all bike stations with a visual indication of the most popular locations to start and end a journey with zip code data overlaid on top.
+* A dynamic map that shows how each station's popularity changes over time (by month and year) -- with commentary pointing to any interesting events that may be behind these phenomena.
+* Two unexpected phenomena in the data and provide a visualization and analysis to document their presence.
 
